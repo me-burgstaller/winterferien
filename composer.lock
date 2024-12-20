@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ff978077d84b27669063b8976a082b36",
+    "packages": [
+        {
+            "name": "sar-mayr/weihnachtszeit",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:sar-mayr/weihnachtszeit.git",
+                "reference": "b56c8bf7451120b64667ed2f97d58ff4ff42d8c5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SarMayr\\Weihnachtszeit\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sarah Mayr",
+                    "email": "smayr@schueler.hakzell.at"
+                }
+            ],
+            "time": "2024-12-20T08:11:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "sar-mayr/weihnachtszeit": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

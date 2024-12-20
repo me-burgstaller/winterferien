@@ -1,0 +1,27 @@
+{
+    "name": "me-burgstaller/winterferien",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MeBurgstaller\\Winterferien\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Melissa Burgstaller",
+            "email": "melissaburgstaller@gmail.com"
+        }
+    ],
+    "repositories":
+            [
+                {
+                    "type": "git",
+                    "url": "git@github.com:sar-mayr/weihnachtszeit.git"
+                }
+            ],
+    "minimum-stability": "dev",
+    "require": {
+        "sar-mayr/weihnachtszeit": "dev-main"
+    }
+}
